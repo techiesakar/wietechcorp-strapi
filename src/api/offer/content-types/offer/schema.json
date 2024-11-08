@@ -1,0 +1,117 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offers",
+  "info": {
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "offers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "country": {
+      "type": "enumeration",
+      "enum": [
+        "Nepal",
+        "Kenya",
+        "India",
+        "USA",
+        "Congo",
+        "Bhutan"
+      ],
+      "required": true
+    },
+    "remote": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "education_level": {
+      "type": "enumeration",
+      "enum": [
+        "Bachelor",
+        "Master",
+        "Secondary",
+        "Primary"
+      ],
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "ui_ux",
+        "information_technology",
+        "devops_cloud",
+        "quality_assuarance"
+      ]
+    },
+    "on_site": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "hybrid": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "department": {
+      "type": "enumeration",
+      "enum": [
+        "development",
+        "design",
+        "hr",
+        "management",
+        "sales"
+      ],
+      "required": true
+    },
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "cvRequired": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "experience": {
+      "type": "string",
+      "required": true
+    },
+    "location_branch": {
+      "type": "enumeration",
+      "enum": [
+        "head office",
+        "remote"
+      ],
+      "required": true
+    }
+  }
+}

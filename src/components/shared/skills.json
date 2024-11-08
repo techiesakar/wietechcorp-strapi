@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_shared_skills",
+  "info": {
+    "displayName": "skills"
+  },
+  "options": {},
+  "attributes": {
+    "technologies": {
+      "type": "enumeration",
+      "enum": [
+        "JavaScript",
+        "TypeScript",
+        "ReactJs",
+        "NextJs",
+        "NestJs",
+        "Laravel",
+        "PHP",
+        "Django",
+        "Python"
+      ]
+    },
+    "soft_skills": {
+      "type": "enumeration",
+      "enum": [
+        "Leadership",
+        "Collaboration"
+      ]
+    },
+    "languages": {
+      "type": "enumeration",
+      "enum": [
+        "English",
+        "Hindi",
+        "Chinese",
+        "Nepali",
+        "Spanish",
+        "Urdu",
+        "Swahili"
+      ]
+    }
+  }
+}

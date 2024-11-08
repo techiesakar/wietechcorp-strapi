@@ -12,12 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "aboutUsMainBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.two-column-layout-with-media",
+      "required": true
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "ourMissionBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.two-column-layout-with-media"
     }
   }
 }

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_two_column_layout_with_medias",
+  "info": {
+    "displayName": "TwoColumnLayoutWithMedia",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "paraFirst": {
+      "type": "text"
+    },
+    "paraSecond": {
+      "type": "text"
+    },
+    "featuredMedia": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "slogan": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

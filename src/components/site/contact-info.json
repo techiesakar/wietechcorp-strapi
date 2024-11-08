@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_site_contact_infos",
+  "info": {
+    "displayName": "Contact Info"
+  },
+  "options": {},
+  "attributes": {
+    "primaryPhone": {
+      "type": "biginteger",
+      "required": true
+    },
+    "secondaryPhone": {
+      "type": "biginteger"
+    },
+    "primaryEmail": {
+      "type": "email",
+      "required": true
+    },
+    "secondaryEmail": {
+      "type": "email"
+    },
+    "streetAddressOne": {
+      "type": "string",
+      "required": true
+    },
+    "streetAddressTwo": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "mapLink": {
+      "type": "text"
+    }
+  }
+}

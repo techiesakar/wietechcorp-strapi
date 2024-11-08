@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_social_links",
+  "info": {
+    "displayName": "Social Links"
+  },
+  "options": {},
+  "attributes": {
+    "facebook_link": {
+      "type": "string"
+    },
+    "linkedin_link": {
+      "type": "string"
+    },
+    "twitter_link": {
+      "type": "string"
+    },
+    "tiktok_link": {
+      "type": "string"
+    },
+    "youtube_link": {
+      "type": "string"
+    },
+    "github_link": {
+      "type": "string"
+    },
+    "instagram_link": {
+      "type": "string"
+    },
+    "threads_link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_site_site_infos",
+  "info": {
+    "displayName": "Site Info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "mainLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "secondaryLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "contactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.contact-info"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.social-links"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
